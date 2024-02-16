@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 30px;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 7.7);
+    font-size: 40px;
+    color: rgba(135, 2, 2, 0.847);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.score-board{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+.score{
+    display: flex;
+    font-size: 30px;
+    color: rgba(135, 2, 2, 0.847);
+    width: 200px;
+    height: 50px;
+    background: antiquewhite;
+    margin: 0 auto;
+    border: 3px solid  rgba(135, 2, 2, 0.847);
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.score p {
+    padding: 8px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.choice:hover {
+    border-radius : 50%;
+    background-color: white ;
+    margin: 2px;
+    opacity: 0.7s;
+}
+.choice img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    object-fit: cover;
+    border: 3px solid  rgba(135, 2, 2, 0.847);
+    border-radius : 50%;
+    cursor: pointer;
+}
+.msg-container {
+    text-align: center;
+    color: rgba(135, 2, 2, 0.847);
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(135, 2, 2, 0.847) ;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid  rgba(135, 2, 2, 0.847);
+    transition: 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .btn:hover {
+    background: antiquewhite;
+    color: rgba(135, 2, 2, 0.847) ;
+    transition: 0.5s;
+    cursor: pointer;
+  }
